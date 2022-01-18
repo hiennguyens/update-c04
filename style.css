@@ -177,7 +177,6 @@ padding-top: 1%;
 }
 #Services .h2{
     /*background-color: white;*/
-    text-align: center;
     font-size:40px;
     height: 100px;
     width:90%;
@@ -185,7 +184,7 @@ padding-top: 1%;
     margin-left: 10%;
 }
 #Services .p{
-   
+    margin-top: -12%;
     /*background-color: black;*/
 }
 #Services .right{
@@ -193,7 +192,7 @@ padding-top: 1%;
     flex-wrap: wrap;
     margin-top: 5%;
     padding-top: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 40%;
 }
 
 #Services .item{
@@ -205,7 +204,6 @@ padding-top: 1%;
     padding-top: -5%;
   margin: 5%;
   margin-left: 1%;
-  
    margin-right: 1%;
    margin-bottom: -4%;
    
@@ -215,7 +213,155 @@ padding-top: 1%;
   width: 40%;
   margin-left: 10%;
   margin-bottom: 50%;
-  text-align: center;
   margin-right: -5%;
 }
-    
+
+
+
+#Testimonials{
+    background-image: url(./img/bg.jpg);
+    color: white;
+   padding-top: 2%;
+   padding-bottom: 6%;
+   margin-top: 5%;
+  
+}
+#Testimonials .h2{
+     /*height: 50px; 
+        background-color: black;*/
+    text-align: center;
+    font-size:40px;
+}
+#Testimonials .chua{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Testimonials .text{
+    /*border: solid 2px red;*/
+    width: 33%;
+    height:250px;
+    text-align: center;
+    padding: 20px;
+  
+}
+
+#Testimonials .p{
+    margin-top: 8%;
+    color: tomato;
+    margin-left: 30%;
+}
+#Testimonials .img{
+    width:30%;
+    border-radius: 500px;
+}
+
+
+#our-blog .h1{
+    text-align: center;
+}
+#our-blog .ite{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+#our-blog .a{
+    width: 27%;
+    border: whitesmoke 2px solid;
+    margin-left: 8%;
+    margin-bottom: 2%;
+    margin-right: -7%;
+}
+#our-blog .img{
+    width: 100%;
+    height: 64%;
+}
+
+
+
+
+
+#contact-us{
+    background-color:whitesmoke;
+    color: white;
+   padding-top: 2%;
+   padding-bottom: 9%;
+   margin-top: 5%;
+  
+}
+#contact-us .h2{
+     /*height: 50px; 
+        background-color: black;*/
+    text-align: center;
+    font-size:40px;
+    color: rgb(232 143 5);;
+}
+#contact-us .chua{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact-us .text{
+    /*border: solid 2px red;*/
+    width: 50%;
+    height:250px;
+    padding: 20px;
+   color: black;
+}
+
+#contact-us .p{
+    margin-top: 8%;
+    color: tomato;
+    margin-left: 25%;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+#th{
+    background-color:rgb(23 24 27);
+    color: white;
+   padding-top: 2%;
+   padding-bottom: 9%;
+   margin-top: 5%;
+  
+}
+#th .h2{
+     /*height: 50px; 
+        background-color: black;*/
+   
+    font-size:40px;
+}
+#th .chua{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#th .text{
+    /*border: solid 2px red;*/
+    width: 25%;
+    height:250px;
+   
+    padding: 20px;
+  
+}
+
+#th .p{
+    margin-top: 8%;
+    color: rgb(73 74 78);;
+}
+
